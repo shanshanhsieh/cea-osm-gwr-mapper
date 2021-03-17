@@ -116,7 +116,7 @@ ENERGY_HEAT_SOURCE = {
 
 BUILDING_TYPE = {
     1110: "SINGLE_RES",
-    1121: "MULTI_RES",
+    1121: "MULTI_RES", #
     1122: "MULTI_RES",
     1130: "MULTI_RES",
     1211: "HOTEL",
@@ -124,22 +124,22 @@ BUILDING_TYPE = {
     1220: "OFFICE",
     1230: "RETAIL",
     1231: "RESTAURANT",
-    1241: "PARKING",
+    1241: "PARKING", # Transport facilities
     1242: "PARKING",
     1251: "INDUSTRIAL",
-    1252: "INDUSTRIAL",
-    1261: "LIBRARY",
-    1262: "LIBRARY",
+    1252: "INDUSTRIAL", # Warehouse
+    1261: "LIBRARY", # Cultural/Leisure activities
+    1262: "LIBRARY", # Museum???
     1263: "SCHOOL",
     1264: "HOSPITAL",
-    1265: "GYM",
-    1271: "INDUSTRIAL",
-    1272: "LIBRARY",
-    1273: "LIBRARY",
-    1274: "PARKING",
-    1275: "HOSPITAL",
-    1276: "INDUSTRIAL",
-    1277: "INDUSTRIAL",
+    1265: "GYM", # Sport halls
+    1271: "INDUSTRIAL", # Argricultural
+    1272: "LIBRARY", # Church
+    1273: "LIBRARY", # Mounement
+    1274: "PARKING", # Others/Un-known buildings
+    1275: "HOSPITAL", # Communal living ?
+    1276: "INDUSTRIAL", # Barns?
+    1277: "INDUSTRIAL", # Argriculture (plants?)
     1278: "INDUSTRIAL",
 }
 
