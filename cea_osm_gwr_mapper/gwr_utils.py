@@ -171,7 +171,7 @@ def read_gwr(gwr_path):
     df = df[~no_coords]
 
     # Drop non-existing buildings
-    existing_buildings = df['building_status'].isin([1001,1002,1003,1004]) # existing projects & buildings
+    existing_buildings = df['building_status'] == 1004
     df = df[existing_buildings]
 
     # Fill missing year with median
